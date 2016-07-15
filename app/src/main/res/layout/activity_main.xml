@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+
+                android:id="@+id/textViewMAIN" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/my_recycler_view"
+                android:layout_below="@id/textViewMAIN"
+                android:layout_weight="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                />
+            <!-- A RecyclerView with some commonly used attributes -->
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:textColor="#00FF00"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/t" />
+            <View
+                android:layout_toRightOf="@id/t"
+                android:layout_height="5dp"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="565dp"
+                android:background="#30F21D05"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="445dp"
+                android:textColor="#00FF00"
+                android:id="@+id/t1" />
+            <View
+                android:layout_toRightOf="@id/t1"
+                android:layout_height="5dp"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="445dp"
+                android:background="#30F21D05"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="600"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="335dp"
+                android:textColor="#00FF00"
+                android:id="@+id/t2" />
+            <View
+                android:layout_toRightOf="@id/t2"
+                android:layout_height="5dp"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="335dp"
+                android:background="#30F21D05"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="900"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="220dp"
+                android:textColor="#00FF00"
+                android:id="@+id/t3" />
+            <View
+                android:layout_toRightOf="@id/t3"
+                android:layout_height="5dp"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="220dp"
+                android:background="#30F21D05"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1200"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="100dp"
+                android:textColor="#00FF00"
+                android:id="@+id/t4" />
+            <View
+                android:layout_toRightOf="@id/t4"
+                android:layout_height="5dp"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="100dp"
+                android:background="#30F21D05"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+</LinearLayout>
